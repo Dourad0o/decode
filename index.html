@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="https://code.responsivevoice.org/responsivevoice.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/stylesheet.css">
+    <link rel="shortcut icon" href="img/descripto.png" type="image/x-icon">
+    <title>Criptografia</title>
+</head>
+<body>
+
+   <main class="conteiner">
+      <header class="cabecalho">
+        <img src="img/descripto.png" alt="">
+        <h1>Mensagens Criptografadas</h1>
+      </header>
+
+    <div class="conteiner_input">
+        <div class="input">
+            <textarea id="input_texto" placeholder="Digite o texto que deseja codificar....."></textarea>
+            <p>Atenção: Apenas letras minusculas e sem acento</p>
+        </div>
+    
+        
+    <div id="output">
+        <img src="img/descripto.png" alt="">
+        <h1>Sua mensagem aparecera aqui</h1>
+        <span>Digite um texto que você deseja criptografar ou descriptografar</span>            
+    </div>
+    </div>
+    
+    <div class="buttons">
+        <div class="conteiner_btn">
+            <button onclick="criptografar()" class="conteiner__botao">Criptografar</button>
+            <button onclick="descriptografar()" class="conteiner_botao">Descripitografar</button>
+        </div>  
+    </div>
+        
+
+    </main>
+        
+        <footer>
+            <div class="rodape">
+                <div class="rodape_conteudo">
+                    <P>Projeto desenvolvido por @Dourado</P>
+                    
+                </div>
+            </div>
+        </footer>
+
+      
+<script src="app.js"></script>
+</body>
+</html>
